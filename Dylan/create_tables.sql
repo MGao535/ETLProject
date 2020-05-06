@@ -37,7 +37,7 @@ CREATE TABLE "game_results" (
 CREATE TABLE "weather" (
     "city" VARCHAR(45)   NOT NULL,
     "date" DATE   NOT NULL,
-    "maxtempf" INT NOT NULL,
+    "maxtempf" INT NOT NULL
 );
 
 
