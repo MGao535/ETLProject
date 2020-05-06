@@ -1,30 +1,63 @@
-,Stadium,Franchise(s),Used for MLS,Capacity,Surface,Roof type,City,State
-0,Audi Field,D.C. United,2018,20000,Grass,Open,Washington, D.C.
-1,Banc of California Stadium,Los Angeles FC,2018,22000,Grass,Open,Los Angeles,
-2,BBVA Stadium,Houston Dynamo,2012,22039,Grass,Open,Houston,
-3,BC Place,Vancouver Whitecaps FC,2011,22120,Polytan,Retractable,Vancouver,
-4,BMO Field,Toronto FC,2007,28351,Hybrid grass,Open,Toronto,
-5,CenturyLink Field,Seattle Sounders FC,2009,37722,FieldTurf,Open,Seattle,
-6,Children's Mercy Park,Sporting Kansas City,2011,18467,Grass,Open,Kansas City, Kansas
-7,Dick's Sporting Goods Park,Colorado Rapids,2007,18061,Grass,Open,Commerce City, Colorado
-8,Dignity Health Sports Park,LA Galaxy,2003,27000,Grass,Open,Carson, California
-9,Earthquakes Stadium,San Jose Earthquakes,2015,18000,Grass,Open,San Jose, California
-10,Exploria Stadium,Orlando City SC,2017,25500,Grass,Open,Orlando, Florida
-11,Gillette Stadium,New England Revolution,2002,20000,FieldTurf,Open,Foxborough, Massachusetts
-12,Mapfre Stadium,Columbus Crew SC,1999,19968,Grass,Open,Columbus, Ohio
-13,Mercedes-Benz Stadium,Atlanta United FC,2017,42500,FieldTurf,Retractable,Atlanta,
-14,Providence Park,Portland Timbers,2011,25218,FieldTurf,Open,Portland, Oregon
-15,Red Bull Arena,New York Red Bulls,2010,25000,Grass,Open,Harrison, New Jersey
-16,Rio Tinto Stadium,Real Salt Lake,2008,20213,Grass,Open,Sandy, Utah
-17,Saputo Stadium,Montreal Impact,2012,19619,Grass,Open,Montreal,
-18,Soldier Field,Chicago Fire FC,1998,24955,Grass,Open,Chicago,
-19,Subaru Park,Philadelphia Union,2010,18500,Grass,Open,Chester, Pennsylvania
-20,Toyota Stadium,FC Dallas,2005,20500,Grass,Open,Frisco, Texas
-21,Yankee Stadium,New York City FC,2015,30321,Grass,Open,Bronx, New York
-22,Bobby Dodd Stadium,Atlanta United FC,2017,55000,Grass,Open,Atlanta,
-23,Buck Shaw Stadium,San Jose Earthquakes,2008–2014,10525,Grass,Open,Santa Clara, California
-24,Camping World Stadium,Orlando City SC,2015–2016,19500,AstroTurf,Open,Orlando, Florida
-25,Navy–Marine Corps Memorial Stadium,D.C. United,2018,34000,FieldTurf,Open,Annapolis, Maryland
-26,RFK Stadium,D.C. United,1996–2017,20000,Grass,Open,Washington, D.C.
-27,SeatGeek Stadium,Chicago Fire,2006–2019,20000,Grass,Open,Bridgeview, Illinois
-28,TCF Bank Stadium,Minnesota United FC,2017–2018,21895,FieldTurf,Open,Minneapolis,
+,Stadium,Franchise(s),Capacity,Surface,Roof Type,City,State
+0,Allianz Field,Minnesota United FC,19400,Grass,Open,Saint Paul, Minnesota
+1,Audi Field,D.C. United,20000,Grass,Open,Washington, D.C.
+2,Banc of California Stadium,Los Angeles FC,22000,Grass,Open,Los Angeles,
+3,BBVA Stadium,Houston Dynamo,22039,Grass,Open,Houston,
+4,BC Place,Vancouver Whitecaps FC,22120,Polytan,Retractable,Vancouver,
+5,BMO Field,Toronto FC,28351,Hybrid grass,Open,Toronto,
+6,CenturyLink Field,Seattle Sounders FC,37722,FieldTurf,Open,Seattle,
+7,Children's Mercy Park,Sporting Kansas City,18467,Grass,Open,Kansas City, Kansas
+8,Dick's Sporting Goods Park,Colorado Rapids,18061,Grass,Open,Commerce City, Colorado
+9,Dignity Health Sports Park,LA Galaxy,27000,Grass,Open,Carson, California
+10,Earthquakes Stadium,San Jose Earthquakes,18000,Grass,Open,San Jose, California
+11,Exploria Stadium,Orlando City SC,25500,Grass,Open,Orlando, Florida
+12,Gillette Stadium,New England Revolution,20000,FieldTurf,Open,Foxborough, Massachusetts
+13,Inter Miami CF Stadium,Inter Miami CF,18000,Grass,Open,Fort Lauderdale, Florida
+14,Mapfre Stadium,Columbus Crew SC,19968,Grass,Open,Columbus, Ohio
+15,Mercedes-Benz Stadium,Atlanta United FC,42500,FieldTurf,Retractable,Atlanta,
+16,Nippert Stadium,FC Cincinnati,32250,Act Global UBU Sports Speed M6-M,Open,Cincinnati,
+17,Nissan Stadium,Nashville SC,,Tifsport Bermuda Sod,Open,Nashville,
+18,Providence Park,Portland Timbers,25218,FieldTurf,Open,Portland, Oregon
+19,Red Bull Arena,New York Red Bulls,25000,Grass,Open,Harrison, New Jersey
+20,Rio Tinto Stadium,Real Salt Lake,20213,Grass,Open,Sandy, Utah
+21,Saputo Stadium,Montreal Impact,19619,Grass,Open,Montreal,
+22,Soldier Field,Chicago Fire FC,24955,Grass,Open,Chicago,
+23,Subaru Park,Philadelphia Union,18500,Grass,Open,Chester, Pennsylvania
+24,Toyota Stadium,FC Dallas,20500,Grass,Open,Frisco, Texas
+25,Yankee Stadium,New York City FC,30321,Grass,Open,Bronx, New York
+26,Arrowhead Stadium,Kansas City Wizards,20269,Grass,Open,Kansas City, Missouri
+27,Bobby Dodd Stadium,Atlanta United FC,55000,Grass,Open,Atlanta,
+28,Buck Shaw Stadium,San Jose Earthquakes,10525,Grass,Open,Santa Clara, California
+29,Camping World Stadium,Orlando City SC,19500,AstroTurf,Open,Orlando, Florida
+30,Cardinal Stadium,Chicago Fire,15000,FieldTurf,Open,Naperville, Illinois
+31,CommunityAmerica Ballpark,Kansas City Wizards,10385,Grass,Open,Kansas City, Kansas
+32,Cotton Bowl,Dallas Burn,25425,Grass,Open,Dallas,
+33,Dragon Stadium,Dallas Burn,11000,,Open,Southlake, Texas
+34,Empire Field,Vancouver Whitecaps FC,20500,FieldTurf,Open,Vancouver,
+35,Foxboro Stadium,New England Revolution,24871,Grass,Open,Foxborough, Massachusetts
+36,Giants Stadium,New York Red BullsNY/NJ MetroStars,25576,Grass; AstroTurf; FieldTurf,Open,East Rutherford, New Jersey
+37,Invesco Field at Mile High,Colorado Rapids,17500,Grass,Open,Denver,
+38,Mile High Stadium,Colorado Rapids,17500,Grass,Open,Denver,
+39,Navy–Marine Corps Memorial Stadium,D.C. United,34000,FieldTurf,Open,Annapolis, Maryland
+40,Oakland–Alameda County Coliseum,San Jose Earthquakes,47416,Grass,Open,Oakland, California
+41,Ohio Stadium,Columbus Crew,25243,Grass,Open,Columbus, Ohio
+42,RFK Stadium,D.C. United,20000,Grass,Open,Washington, D.C.
+43,Rice–Eccles Stadium,Real Salt Lake,24521,FieldTurf,Open,Salt Lake City,
+44,Robertson Stadium,Houston Dynamo,25462,Grass,Open,Houston,
+45,Rose Bowl,Los Angeles Galaxy,26000,Grass,Open,Pasadena, California
+46,SeatGeek Stadium,Chicago Fire,20000,Grass,Open,Bridgeview, Illinois
+47,Spartan Stadium,San Jose Earthquakes,19166,Grass,Open,San Jose, California
+48,TCF Bank Stadium,Minnesota United FC,21895,FieldTurf,Open,Minneapolis,
+49,Cheney Stadium,Seattle Sounders FC,6500,Grass,Open,Tacoma,
+50,Citi Field,New York City FC,41922,Grass,Open,Queens, New York
+51,Coffey Field,New York City FC,7000,FieldTurf,Open,Bronx, New York
+52,Fifth Third Bank Stadium,Atlanta United FC,8318,Hybrid surface,Open,Kennesaw, Georgia
+53,Kezar Stadium,San Jose Earthquakes,3888,Grass,Open,San Francisco,
+54,Levi's Stadium,San Jose Earthquakes,48765,Grass,Open,Santa Clara, California
+55,Lincoln Financial Field,Philadelphia Union,37500,Grass,Open,Philadelphia,
+56,Maryland SoccerPlex,D.C. United,3200,Grass,Open,Germantown, Maryland
+57,Olympic Stadium,Montreal Impact,61004,Xtreme Turf by Act Global,Domed (Fixed),Montreal,
+58,Pratt & Whitney Stadium at Rentschler Field,New York City FC,40642,Grass,Open,East Hartford, Connecticut
+59,Rogers Centre,Toronto FC,47568,AstroTurf 3D Xtreme,Retractable,Toronto,
+60,Stanford Stadium,San Jose Earthquakes,50000,Grass,Open,Stanford, California
+61,Starfire Sports Complex,Seattle Sounders FC,4500,FieldTurf,Open,Tukwila, Washington
