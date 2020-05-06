@@ -40,3 +40,11 @@ TRANSFORM:
 
 
 3. Games
+- Downloaded CSV File from Data World and deleted NaN rows 
+- Removed unwanted columns 
+- Renamed columns names for readability 
+- Using the Date column, transformed date into UNIX time for API request 
+- Limited the number of seasons to just 2018 due to restrictions of API request
+- Cleaned the stadiums so they are uniform (i.e StubHub and Stubhub = StubHub)
+- Cleaned the stadiums so that they are the same name to Dylans for ease 
+- Added Stadium ID column to match Dylans 
