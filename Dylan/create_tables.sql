@@ -21,14 +21,14 @@ CREATE TABLE "game_results" (
     "date" DATE   NOT NULL,
     "City" VARCHAR(45)   NOT NULL,
     "home_team" VARCHAR(45)   NOT NULL,
-    "home_goals" INT   NOT NULL,
+    "home_goals" FLOAT   NOT NULL,
     "visitor_team" VARCHAR(45)   NOT NULL, 
-    "visitor_goals" INT   NOT NULL, 
-    "attendance" INT   NOT NULL, 
+    "visitor_goals" FLOAT   NOT NULL, 
+    "attendance" VARCHAR(45)   NOT NULL, 
     "stadium" VARCHAR(45)   NOT NULL,
     "percentage_filled" VARCHAR(45)   NOT NULL, 
-    "unix" INT   NOT NULL, 
-    "stadium_id" INT   NOT NULL,
+    "unix" FLOAT   NOT NULL, 
+    "stadium_id" FLOAT   NOT NULL,
     CONSTRAINT "pk_game_results" PRIMARY KEY (
         "game_id"
      )
@@ -43,3 +43,9 @@ CREATE TABLE "weather" (
 
 ALTER TABLE "game_results" ADD CONSTRAINT "fk_game_results_stadium_id" FOREIGN KEY("stadium_id")
 REFERENCES "stadiums" ("stadium_id");
+
+ALTER TABLE "weather" ADD CONSTRAINT "fk_weather_city" FOREIGN KEY("city")
+REFERENCES "stadiums" ("city");
+
+ALTER TABLE "weather" ADD CONSTRAINT "fk_weather_date" FOREIGN KEY("date")
+REFERENCES "game_results" ("date");
