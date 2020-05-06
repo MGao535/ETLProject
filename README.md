@@ -11,6 +11,8 @@ These are the steps that were taken:
 
 1. The database schema was defined in quickdatabasediagrams.com as follows:
 
+
+
 2. The tables were predefined for the database in PostgresSQL (see create_tables.sql)
 
 3. Once the database is ready, the ETL process can run.
