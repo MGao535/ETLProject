@@ -16,7 +16,7 @@ These are the steps that were taken:
 3. Once the database is ready, the ETL process can run.
 
 
-EXTRACT: First, the following 3 data sources are used to extract data in csv format. Csv files can be found in the Resources folder
+EXTRACT: First, the following 3 data sources are used to extract data in csv format. Csv files can be found in the Finished_Product folder
 
 MLSAttendanceAllGames.xlsx - source: https://data.world/
 
