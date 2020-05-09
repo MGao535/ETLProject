@@ -56,6 +56,7 @@ LOAD:
 - Made Sample Queries for one to use to gather data by stadium_id or city. 
 
 Examples:
+
 ER Diagram 
 - This is what we used to base our SQL tables on. 
 ![ER Diagram](https://github.com/MGao535/ETLProject/blob/master/Pictures/Screen%20Shot%202020-05-09%20at%207.16.33%20PM.png)
