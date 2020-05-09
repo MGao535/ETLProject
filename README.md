@@ -11,17 +11,17 @@ These are the steps that were taken:
 
 1. The database schema was defined in quickdatabasediagrams.com as follows:
 
-
-
 2. The tables were predefined for the database in PostgresSQL (see create_tables.sql)
 
 3. Once the database is ready, the ETL process can run.
 
 
-EXTRACT: First the following 4 data sources are loaded. Csv files can be found in the Resources folder
+EXTRACT: First, the following 3 data sources are used to extract data in csv format. Csv files can be found in the Resources folder
 
 MLSAttendanceAllGames.xlsx - source: https://data.world/
+
 read_html using pandas for MLS Stadiums - source: wikipedia
+
 api call using pandas - source: http://api.worldweatheronline.com
 
 
