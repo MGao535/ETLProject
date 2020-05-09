@@ -55,3 +55,13 @@ LOAD:
 - Loaded the data from the CSV files we made from the data we transformed. 
 - Made Sample Queries for one to use to gather data by stadium_id or city. 
 
+Examples:
+ER Diagram 
+- This is what we used to base our SQL tables on. 
+![ER Diagram](https://github.com/MGao535/ETLProject/blob/master/Pictures/Screen%20Shot%202020-05-09%20at%207.16.33%20PM.png)
+
+All games in the MLS 2018 Season and Weather
+![MLS 2018 Weather](https://github.com/MGao535/ETLProject/blob/master/Pictures/All_games.png)
+
+Search by city (i.e 'Toronto')
+![Toronto Search Query](https://github.com/MGao535/ETLProject/blob/master/Pictures/Toronto.png)
