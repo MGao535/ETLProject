@@ -48,3 +48,10 @@ TRANSFORM:
 - Cleaned the stadiums so they are uniform (i.e StubHub and Stubhub = StubHub)
 - Cleaned the stadiums so that they are the same name to Dylans for ease 
 - Added Stadium ID column to match Dylans 
+
+LOAD:
+
+- Created the tables in Postgres.
+- Loaded the data from the CSV files we made from the data we transformed. 
+- Made Sample Queries for one to use to gather data by stadium_id or city. 
+
