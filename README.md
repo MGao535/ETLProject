@@ -3,9 +3,9 @@ Columbia Bootcamp Project 2
 
 This project was completed by Dylan, Michael and Shawn.
 
-The program delivers a database with information about MLS game days and the weather. The goal of the dataset is to enable those using it to see how weather impacts the game (attendance, performance, etc.). 
+The program delivers a database with information about Major League Soccer game days and the weather. The goal of the dataset is to enable those using it to see how weather impacts the game (attendance, performance, etc.). 
 
-The program takes 3 datasources and eventually creates a normalized database with 3 tables in PostgreSQL.
+The program takes 3 data sources and eventually creates a normalized database with 3 tables in PostgreSQL.
 
 These are the steps that were taken:
 
@@ -16,31 +16,28 @@ These are the steps that were taken:
 3. Once the database is ready, the ETL process can run.
 
 
-EXTRACT: First, the following 3 data sources are used to extract data in csv format. Csv files can be found in the Finished_Product folder
+EXTRACT: First, the following 3 data sources are used to extract data in .csv format. The .csv files can be found in the Finished_Product folder
 
 MLSAttendanceAllGames.xlsx - source: https://data.world/
 
 read_html using pandas for MLS Stadiums - source: wikipedia
 
-api call using pandas - source: http://api.worldweatheronline.com
+api call using pandas - source: http://api.worldweatheronline.com, additional query of /premium/v1/past-weather.ashx? to get weather from the past
 
 
 TRANSFORM:
 
 1. Stadium
-- delete unwanted columns for the 3 tables wanted on the wiki page
-- add 'open' rooftype to the second table
-- change column names to match between the tables
-- join the 3 tables together
-- split the Location column to seperate City from State
-- clean the Capacity column to remove notes and reduced capacity values
-- export dataframe to a .csv
+- Deleted unwanted columns for the 3 tables wanted on the wiki page
+- Added 'open' rooftype to the second table
+- Changed column names to match between the tables
+- Joined the 3 tables together
+- Split the Location column to seperate City from State
+- Cleaned the Capacity column to remove notes and reduced capacity values
+- Exported dataframe to a .csv
 
-2. Weather
-
-
-3. Games
-- Downloaded CSV File from Data World and deleted NaN rows 
+2. Games
+- Downloaded .csv file from Data World and deleted NaN rows 
 - Removed unwanted columns 
 - Renamed columns names for readability 
 - Using the Date column, transformed date into UNIX time for API request 
@@ -48,6 +45,17 @@ TRANSFORM:
 - Cleaned the stadiums so they are uniform (i.e StubHub and Stubhub = StubHub)
 - Cleaned the stadiums so that they are the same name to Dylans for ease 
 - Added Stadium ID column to match Dylans 
+- Exported dataframe to a .csv
+
+3. Weather
+- Imported the .csv file from Games with just games from 2018
+- Found unique values for City column
+- Individually tested unique values with API call to make sure each API call would return a valid data
+- Renamed city values that did not return valid data to new unique and similar city name (i.e. NYCFC = NYC, HOU/SJ = Houston since there already was a San Jose City value)
+- Exported dataframe made from the games .csv with corrected City values
+- Called the API with the City name and Date of each game and stored the maximum temperature of the day in fahrenheit in a list
+- Created new weather dataframe with City name, Date, and MaxTempF (Maximum Temperature Fahrenheit)
+-Exported dataframe to a .csv
 
 LOAD:
 
